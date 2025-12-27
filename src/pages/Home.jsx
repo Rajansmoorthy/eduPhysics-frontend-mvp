@@ -3,6 +3,10 @@ export default function Home() {
     <div>
       <h1>eduPhysics AI</h1>
       <p>Physics learning, simplified.</p>
+
+      <button>
+        Start Learning
+      </button>
     </div>
   );
 }
