@@ -1,3 +1,5 @@
+import { mockResponses } from "../data/mockResponses";
+
 export default function Tutor() {
   return (
     <div>
@@ -15,10 +17,7 @@ export default function Tutor() {
 
       <div style={{ marginTop: "20px" }}>
         <strong>AI Response:</strong>
-        <p>
-          Electricity is the flow of electric charge through a conductor.
-          This demo response is static and used only for UI demonstration.
-        </p>
+        <p>{mockResponses.Electricity}</p>
       </div>
     </div>
   );
