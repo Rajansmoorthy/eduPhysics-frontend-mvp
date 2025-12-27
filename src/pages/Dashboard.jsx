@@ -23,6 +23,13 @@ export default function Dashboard() {
           <option>Mechanics</option>
         </select>
       </label>
+
+      <br /><br />
+
+      <button>
+        Go to Tutor
+      </button>
     </div>
   );
 }
+
