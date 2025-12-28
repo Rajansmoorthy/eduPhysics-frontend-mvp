@@ -5,7 +5,7 @@ export default function Tutor() {
   const [topic, setTopic] = useState("Electricity");
 
   return (
-    <div>
+    <div className="page">
       <h2>AI Physics Tutor (Demo)</h2>
 
       <label>
