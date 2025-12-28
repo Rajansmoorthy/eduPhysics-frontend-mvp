@@ -10,3 +10,31 @@ body {
 h1, h2, h3 {
   font-family: 'Poppins', sans-serif;
 }
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.page {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
