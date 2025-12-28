@@ -1,8 +1,8 @@
 export default function Dashboard() {
   return (
-    <div>
+    <div className="page">
+       <div className="card">
       <h2>Student Dashboard</h2>
-
       <label>
         Select Class:
         <select>
